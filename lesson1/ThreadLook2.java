@@ -12,6 +12,7 @@ public class ThreadLook2 {
                 }
             }
         };
+
 //        t.setDaemon(true);
         //线程要启动，必须使用start()===>告诉系统调度本线程
         t.start();
