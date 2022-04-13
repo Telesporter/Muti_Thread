@@ -38,6 +38,6 @@ public class ThreadTest2 {
         for(Thread t : threads){//同时执行20个线程，再等待所有线程执行完毕
             t.join();
         }
-        System.out.println("OK");
+        System.out.println("main");
     }
 }
